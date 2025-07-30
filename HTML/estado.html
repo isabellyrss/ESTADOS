@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paraíba - Guia Completo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background: #f9f9f9;
+    }
+    header {
+      background: #9d0000;
+      color: #fff;
+      padding: 1rem 2rem;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      margin-top: .5rem;
+    }
+    nav a {
+      color: #ffffff;
+      margin-right: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    section h2 {
+      border-bottom: 2px solid #9d0000;
+      padding-bottom: .3rem;
+      margin-bottom: 1rem;
+      color: #9d0000;
+    }
+    .map-container {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    .map-container iframe,
+    .map-container img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: .5rem;
+      text-align: left;
+    }
+    footer {
+      background: #9d0000;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Paraíba</h1>
+    <nav>
+      <a href="#historia">História</a>
+      <a href="#turismo">Turismo</a>
+      <a href="#populacao">População</a>
+      <a href="#cultura">Cultura</a>
+      <a href="#mapa">Mapa</a>
+      <a href="#municipios">Municípios</a>
+      <a href="#rios">Rios</a>
+      <a href="#services">Serviços</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="historia">
+      <h2>História</h2>
+      <p>
+        A Paraíba foi oficialmente colonizada pelos portugueses em meados do século XVI,
+        enfrentando invasões francesas e resistências indígenas. Fortes como o de Santa Catarina,
+        em Cabedelo, marcaram a defesa colonial. No século XIX, participou da Revolução Pernambucana
+        de 1817 e, em 1930, o assassinato de João Pessoa desencadeou a Revolução de 1930,
+        cujo lema “NEGO” está na bandeira estadual.
+        <p></p>
+      <img src="../bandeira-da-paraiba.jpg">
+      </p>
+    </section>
+
+    <section id="turismo">
+      <h2>Turismo</h2>
+      <p>
+        Com cerca de 130 km de litoral, a Paraíba atrai turistas para praias de águas claras,
+        piscinas naturais e falésias, como as de Tabatinga. O centro histórico de João Pessoa
+        e o São João de Campina Grande também figuram entre os principais atrativos.
+      </p>
+    </section>
+
+    <section id="populacao">
+      <h2>População</h2>
+      <p>
+        Em 2022, a Paraíba tinha 3.974 687 habitantes distribuídos em 223 municípios,
+        resultando em densidade de 70,4 hab/km². A maior concentração fica na Região Metropolitana
+        de João Pessoa, que abriga cerca de 21% da população do estado.
+      </p>
+    </section>
+
+    <section id="cultura">
+      <h2>Cultura</h2>
+      <p>
+        A cultura paraibana mistura raízes indígenas, africanas e europeias. Entre as expressões
+        mais fortes estão o coco de roda, o bumba-meu-boi e o forró pé-de-serra. Na gastronomia,
+        destacam-se a carne de sol com macaxeira, o arroz de leite e o tradicional bolo de rolo.
+        O artesanato em barro, renda e couro é um importante vetor de renda local.
+      </p>
+    </section>
+
+    <section id="mapa">
+      <h2>Mapa</h2>
+      <div class="map-container">
+        <!-- Exemplo de embed Google Maps; substitua o src pelo seu mapa desejado -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391971.42354319176!2d-37.29250805925344!3d-7.312328842650655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acee72e90608c%3A0x1eb2f875c29d8abd!2sPara%C3%ADba%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1620000000000!5m2!1spt-BR!2sus"
+          width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <p>Área total: 56 467,24 km² | Limites: Ceará, Rio Grande do Norte e Pernambuco.</p>
+    </section>
+
+    <section id="municipios">
+      <h2>Municípios</h2>
+      <p>
+        A Paraíba é dividida em 223 municípios. A capital João Pessoa é a mais populosa,
+        seguida por Campina Grande e Santa Rita.
+      </p>
+    </section>
+
+    <!-- Seção de municípios -->
+<section id="municipios">
+  <h2>Municípios da Paraíba</h2>
+  <style>
+    ul.municipios {
+      columns: 5;
+      column-gap: 2rem;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul.municipios li {
+      margin-bottom: 0.25rem;
+    }
+  </style>
+  <ul class="municipios">
+    <li>Água Branca</li>
+    <li>Aguiar</li>
+    <li>Alagoa Grande</li>
+    <li>Alagoa Nova</li>
+    <li>Alagoinha</li>
+    <li>Alcantil</li>
+    <li>Algodão de Jandaíra</li>
+    <li>Alhandra</li>
+    <li>Amparo</li>
+    <li>Aparecida</li>
+    <li>Araçagi</li>
+    <li>Arara</li>
+    <li>Araruna</li>
+    <li>Areia</li>
+    <li>Areia de Baraúnas</li>
+    <li>Areial</li>
+    <li>Aroeiras</li>
+    <li>Assunção</li>
+    <li>Baía da Traição</li>
+    <li>Bananeiras</li>
+    <li>Baraúna</li>
+    <li>Barra de Santa Rosa</li>
+    <li>Barra de Santana</li>
+    <li>Barra de São Miguel</li>
+    <li>Bayeux</li>
+    <li>Belém</li>
+    <li>Belém do Brejo do Cruz</li>
+    <li>Bernardino Batista</li>
+    <li>Boa Ventura</li>
+    <li>Boa Vista</li>
+    <li>Bom Jesus</li>
+    <li>Bom Sucesso</li>
+    <li>Bonito de Santa Fé</li>
+    <li>Boqueirão</li>
+    <li>Borborema</li>
+    <li>Brejo do Cruz</li>
+    <li>Brejo dos Santos</li>
+    <li>Cabaceiras</li>
+    <li>Cabedelo</li>
+    <li>Cachoeira dos Índios</li>
+    <li>Cacimba de Areia</li>
+    <li>Cacimba de Dentro</li>
+    <li>Cacimbas</li>
+    <li>Caaporã</li>
+    <li>Conceição</li>
+    <li>Coxixola</li>
+    <li>Cubati</li>
+    <li>Cuité</li>
+    <li>Cuité de Mamanguape</li>
+    <li>Cuitegi</li>
+    <li>Curral de Cima</li>
+    <li>Curral Velho</li>
+    <li>Damião</li>
+    <li>Desterro</li>
+    <li>Diamante</li>
+    <li>Dona Inês</li>
+    <li>Duas Estradas</li>
+    <li>Emas</li>
+    <li>Esperança</li>
+    <li>Fagundes</li>
+    <li>Frei Martinho</li>
+    <li>Gado Bravo</li>
+    <li>Guarabira</li>
+    <li>Gurinhém</li>
+    <li>Gurjão</li>
+    <li>Ibiara</li>
+    <li>Imaculada</li>
+    <li>Ingá</li>
+    <li>Itabaiana</li>
+    <li>Itaporanga</li>
+    <li>Itapororoca</li>
+    <li>Itatuba</li>
+    <li>Jacaraú</li>
+    <li>Jericó</li>
+    <li>João Pessoa</li>
+    <li>Joca Claudino</li>
+    <li>Juarez Távora</li>
+    <li>Juazeirinho</li>
+    <li>Junco do Seridó</li>
+    <li>Juripiranga</li>
+    <li>Juru</li>
+    <li>Lagoa</li>
+    <li>Lagoa de Dentro</li>
+    <li>Lagoa Seca</li>
+    <li>Lastro</li>
+    <li>Livramento</li>
+    <li>Logradouro</li>
+    <li>Lucena</li>
+    <li>Mãe d’Água</li>
+    <li>Malta</li>
+    <li>Mamanguape</li>
+    <li>Manaíra</li>
+    <li>Marcação</li>
+    <li>Mari</li>
+    <li>Marizópolis</li>
+    <li>Massaranduba</li>
+    <li>Mataraca</li>
+    <li>Matinhas</li>
+    <li>Mato Grosso</li>
+    <li>Matureia</li>
+    <li>Mogeiro</li>
+    <li>Montadas</li>
+    <li>Monte Horebe</li>
+    <li>Monteiro</li>
+    <li>Mulungu</li>
+    <li>Natuba</li>
+    <li>Nazarezinho</li>
+    <li>Nova Floresta</li>
+    <li>Nova Olinda</li>
+    <li>Nova Palmeira</li>
+    <li>Olho d’Água</li>
+    <li>Olivedos</li>
+    <li>Ouro Velho</li>
+    <li>Parari</li>
+    <li>Passagem</li>
+    <li>Patos</li>
+    <li>Paulista</li>
+    <li>Pedra Branca</li>
+    <li>Pedra Lavrada</li>
+    <li>Pedras de Fogo</li>
+    <li>Pedro Régis</li>
+    <li>Pombal</li>
+    <li>Prata</li>
+    <li>Princesa Isabel</li>
+    <li>Puxinanã</li>
+    <li>Queimadas</li>
+    <li>Quixaba</li>
+    <li>Remígio</li>
+    <li>Riachão</li>
+    <li>Riachão do Bacamarte</li>
+    <li>Riachão do Poço</li>
+    <li>Riacho de Santo Antônio</li>
+    <li>Riacho dos Cavalos</li>
+    <li>Rio Tinto</li>
+    <li>Salgadinho</li>
+    <li>Salgado de São Félix</li>
+    <li>Santa Cecília</li>
+    <li>Santa Cruz</li>
+    <li>Santa Helena</li>
+    <li>Santa Inês</li>
+    <li>Santa Luzia</li>
+    <li>Santa Rita</li>
+    <li>Santa Teresinha</li>
+    <li>Santana de Mangueira</li>
+    <li>Santana dos Garrotes</li>
+    <li>Santo André</li>
+    <li>São Bentinho</li>
+    <li>São Bento</li>
+    <li>São Domingos</li>
+    <li>São Domingos do Cariri</li>
+    <li>São Francisco</li>
+    <li>São João do Cariri</li>
+    <li>São João do Rio do Peixe</li>
+    <li>São João do Tigre</li>
+    <li>São José da Lagoa Tapada</li>
+    <li>São José de Caiana</li>
+    <li>São José de Espinharas</li>
+    <li>São José de Piranhas</li>
+    <li>São José de Princesa</li>
+    <li>São José do Bonfim</li>
+    <li>São José do Brejo do Cruz</li>
+    <li>São José do Sabugi</li>
+    <li>São José dos Cordeiros</li>
+    <li>São José dos Ramos</li>
+    <li>São Mamede</li>
+    <li>São Miguel de Taipu</li>
+    <li>São Sebastião de Lagoa de Roça</li>
+    <li>São Sebastião do Umbuzeiro</li>
+    <li>Sapé</li>
+    <li>São Vicente do Seridó</li>
+    <li>Serra Branca</li>
+    <li>Serra da Raiz</li>
+    <li>Serra Grande</li>
+    <li>Serra Redonda</li>
+    <li>Serraria</li>
+    <li>Sertãozinho</li>
+    <li>Sobrado</li>
+    <li>Solânea</li>
+    <li>Soledade</li>
+    <li>Sousa</li>
+  </ul>
+</section>
+
+
+    <section id="rios">
+      <h2>Rios Importantes</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Rio</th>
+            <th>Área da Bacia (km²)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Paraíba</td><td>20 071,8</td></tr>
+          <tr><td>Piranhas</td><td>26 047,5</td></tr>
+          <tr><td>Mamanguape</td><td>3 522,7</td></tr>
+          <tr><td>Curimataú</td><td>3 313,6</td></tr>
+          <tr><td>Jacu</td><td>977,3</td></tr>
+          <tr><td>Camaratuba</td><td>637,2</td></tr>
+          <tr><td>Gramame</td><td>589,4</td></tr>
+          <tr><td>Abiaí</td><td>585,5</td></tr>
+          <tr><td>Miriri</td><td>436,2</td></tr>
+          <tr><td>Guaju</td><td>152,6</td></tr>
+          <tr><td>Trairi</td><td>106,1</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="galeria">
+      <h2>Galeria de Fotos</h2>
+      <style>
+        .foto-gallery {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          gap: 1rem;
+          margin-top: 1rem;
+        }
+        .foto-gallery img {
+          width: 100%;
+          height: auto;
+          border-radius: 4px;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+      </style>
+      <div class="foto-gallery">
+        <img src="../Brasil-Paraiba-Joao-Pessoa-Praia-de-Tambau-2.jpg"
+             alt="Praia de Tambaú, João Pessoa">
+        <img src="../images.jpg"
+             alt="Falésias de Coqueirinho">
+        <img src="../Joao_Pessoa_Paraiba_Farol_do_Cabo_Branco2.jpg"
+             alt="Farol do Cabo Branco">
+        <img src="../Edifica----es_Centro_Cultural_S--o_Francisco1-1024x590.jpg"
+             alt="Igreja de São Francisco, João Pessoa">
+        <img src="../licensed-image.jpg"
+             alt="Rio Paraíba do Norte">
+      </div>
+    </section>
+    
+  
+    <section id="services">
+      <h2>Companhias de Luz e Água</h2>
+      <ul>
+        <li>Energisa Paraíba &ndash; Distribuição de energia elétrica</li>
+        <li>CAGEPA &ndash; Companhia de Água e Esgotos da Paraíba</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Guia Paraíba. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
